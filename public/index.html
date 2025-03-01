@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!--google fonts-->
+    
+    <link
+      href="https://fonts.googleapis.com/css?family=Aladin"
+      rel="stylesheet"
+    />
+    <!--font awsome cdn css font icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <!-- <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="32px"
+            viewBox="0 -960 960 960"
+            width="32px"
+            fill="#000"
+          >
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+            />
+          </svg>
+        </li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#CV">CV</a></li>
+      </ul>-->
+      <ul>
+        <li class="logo"><a href="#">LOGO</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a id="thecv" href="#CV">CV</a></li>
+        <li class="menu-button" onclick="showSidebar()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="32px"
+            viewBox="0 -960 960 960"
+            width="32px"
+            fill="#000"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <!--profile image-->
+      <div class="profile-pic">
+        <!--<img src="https://i.pinimg.com/1200x/fc/de/24/fcde2494c670e9897b3e4583780969a6.jpg" alt="profile_pic">-->
+      </div>
+      <div class="left">
+        <p>Hii, I'm</p>
+        <h1>Soumyajoti Sen</h1>
+        <h2><span class="type-effect"> Web Developer</span></h2>
+        <p></p>
+      </div>
+      <div class="right">i have a boss girl</div>
+    </div>
+    <div class="social-media">
+      <ul>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <footer></footer>
+    <!-- load library from the cdn -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      
+      //responsiveness of the sidebar
+      
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+      }
+
+      function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+      }
+
+      // typing effect
+      var typed = new Typed('.type-effect', {
+        strings: ['Web Developer', 'Cloud Engineer', 'Web Designer'],
+        typeSpeed: 70,
+        backSpeed: 55,
+        loop: true,
+      });
+    </script>
+
+  </body>
+</html>

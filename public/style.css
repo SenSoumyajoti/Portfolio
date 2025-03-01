@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    box-shadow: 3px 3px 5px (rgba(0, 0, 0, 0.1));
+    margin-right: 50px;      
+}
+
+.navbar ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.navbar li{
+    list-style: none;
+    height: 70px;
+}
+
+.navbar a{
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #0b0b3b;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px;
+}
+.navbar a:hover{
+    color: rgb(254, 254, 254);
+    background-color: #0b0b3b;
+}
+.navbar li:first-child{
+    margin-right: 740px;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+.navbar li:first-child:hover{
+    color: blue;
+    background-color: white;
+}
+#thecv{
+    background-color: #ffffff;
+    box-shadow: rgb(0, 0, 0.3);
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+#thecv:hover{
+    background-color: #0b0b3b;
+    color: white;
+    
+}
+.logo{
+    color: #0b0b3b;
+    font-weight: bolder;
+    text-align: center;
+   
+}
+.logo:hover{
+    color: blue;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(240, 248, 255, 0.144);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1) ;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;}
+    .menu-button{
+        display: none;
+    }
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+} 
+.profile-pic{
+    width:100px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+ .container {
+
+    width: 90%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    left: 80px;
+    z-index: -1;
+
+    
+    
+}
+
+.left {
+    width: 40%;
+    height: 90vh;
+    background-color: blue;
+}
+.left{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:end;
+    
+    color: white;
+    font-size: xx-large;
+    text-align:center;
+    
+    justify-items:center;
+}
+.left p{
+    position:relative;
+    right:280px;
+}
+.left h1{
+    position: relative;
+    left: 110px;    
+}
+.right {
+    width: 60%;
+    background-color: #0b0b3b;
+}
+
+.social-media{
+    z-index: 0;
+    display: grid;
+}
+.social-media a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.social-media li{
+    list-style:none;
+}
