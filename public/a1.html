@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Recreation</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .left-side {
+            background-color: #0000FF; /* Blue */
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding-left: 40px; /* Adjusted left padding for balance */
+        }
+
+        .right-side {
+            background-color: #000080; /* Dark Blue */
+            width: 50%;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 40px; /* Adjusted logo position to match left padding */
+            font-size: 24px;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 40px; /* Adjusted nav position to create right padding */
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        .content {
+            /* Removed margin-left, relying on left-side padding */
+        }
+
+        .content h1 {
+            font-size: 60px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+
+        .content p {
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .social-icons {
+            position: absolute;
+            bottom: 20px;
+            left: 40px; /* Adjusted social icons position to match left padding */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            margin-bottom: 10px;
+            font-size: 20px; /* Example icon size */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="logo">LOGO</div>
+            <div class="content">
+                <p>Hii, I'm</p>
+                <h1>Soumyajoti Sen</h1>
+                <p>Web Desi</p>
+            </div>
+            <div class="social-icons">
+                <a href="#">Social 1</a>
+                <a href="#">Social 2</a>
+                <a href="#">Social 3</a>
+            </div>
+        </div>
+        <div class="right-side">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Works</a>
+                <a href="#">Contact</a>
+                <a href="#">CV</a>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>

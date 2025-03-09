@@ -85,7 +85,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;}
-    .menu-button{
+.menu-button{
         display: none;
     }
 .sidebar li{
@@ -101,7 +101,7 @@ body {
     
 }
  .container {
-
+   
     width: 90%;
     height: 100%;
     display: flex;
@@ -129,6 +129,7 @@ body {
     text-align:center;
     
     justify-items:center;
+    
 }
 .left p{
     position:relative;
@@ -146,11 +147,18 @@ body {
 .social-media{
     z-index: 0;
     display: grid;
+    position: relative;
+    left: 70px;
+    top: -200px;
+    width: 50%;
+    font-size: x-large;
+    justify-content: space-between;
+
 }
 .social-media a{
     text-decoration: none;
     color: black;
-    
+    justify-content: space-between;
 }
 
 .social-media li{
