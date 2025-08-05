@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Soumyajoti's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="\s-logo.jpg" alt="Soumyajoti's Logo" class="navbar-logo" />
+        <div class="nav-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <a href="http://www.abc.drive.com" class="resume-btn">Resume</a>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      </nav>
+    </header>
+
+    <main>
+      <!--hero section-->
+      <section id="home">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Hello, I'm Soumyajoti</h1>
+            <p>
+              A passionate software and web developer creating beautiful,
+              functional websites and applications.
+            </p>
+            <p>The applications which solves real world problems.</p>
+            <a href="#contact" class="hire-me-btn">Hire Me</a>
+          </div>
+          <div class="hero-image">
+            <img src="\profilr.jpg" alt="Soumyajoti's Profile Photo" />
+          </div>
+        </div>
+        <div class="cards">
+          <div class="skill-card">
+            <h3>Software Development</h3>
+            <p>
+              Building robust applications with modern technologies and best
+              practices.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>Web Development</h3>
+            <p>
+              Creating responsive, user-friendly websites with cutting-edge
+              frameworks.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--about me -->
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm <strong>Soumyajoti</strong>, a full-stack developer with
+              expertise in both software and web development. With a keen eye
+              for detail and a commitment to clean, efficient code, I specialize
+              in building digital solutions that are functional.
+            </p>
+
+            <p>
+              My journey in tech began with a curiosity about how things work,
+              which evolved into a love for creating. Whether I'm developing
+              robust backend systems or crafting intuitive user interfaces, I
+              approach every project with the same philosophy:
+              <em
+                >technology should solve real problems while delivering
+                exceptional user experiences</em
+              >.
+            </p>
+             <p>
+              Let's connect and discuss how I can bring your digital ideas to
+              life!
+            </p>
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+              <h2>Technical Skills</h2>
+              <div class="skills-container">
+                <div class="skill-item">
+                  <i class="fab fa-js fa-3x"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-react fa-3x"></i>
+                  <span>React</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-python fa-3x"></i>
+                  <span>Python</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-git-alt fa-3x"></i>
+                  <span>Git</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-docker fa-3x"></i>
+                  <span>Docker</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-java fa-3x"></i>
+                  <span>Java</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-aws fa-3x"></i>
+                  <span>AWS</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- <p>
+              When I'm not coding, you'll find me exploring new technologies,singing songs,elocution  
+              or mentoring aspiring developers. I believe in continuous learning and staying at the
+              forefront of industry trends to deliver cutting-edge solutions.
+            </p> -->
+
+           
+          </div>
+          <div class="about-image">
+            <img src="\profilr.jpg" alt="Soumyajoti at work" />
+          </div>
+        </div>
+      </section>
+
+      <!--projects section-->
+      <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <img src="E-commerce.jpg" alt="Project 1" class="project-image" />
+            <div class="project-content">
+              <h3 class="project-title">E-Commerce Website</h3>
+              <h5>ongoing</h5>
+              <p class="project-description">
+                A full-featured online store with shopping cart, user
+                authentication, and payment processing.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link live">Live Demo</a>
+                <a href="#" class="project-link code">View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <img src="project2.jpg" alt="Project 2" class="project-image" />
+            <div class="project-content">
+              <h3 class="project-title">Garbage management App</h3>
+              <p class="project-description">
+                A municipality garbage management and garbage vehicle tracking
+                app. consisting admin panel and user panel.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">node.js</span>
+                <span class="tech-tag">mongodb</span>
+                <span class="tech-tag">express.js</span>
+                <span class="tech-tag">websocket</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link live">Live Demo</a>
+                <a href="#" class="project-link code">View Code</a>
+              </div>
+            </div>
+          </div>
+          <!--project 3-->
+          <div class="project-card">
+            <img src="project3.jpg" alt="Project 2" class="project-image" />
+            <div class="project-content">
+              <h3 class="project-title">Event Management App</h3>
+              <h5>ongoing</h5>
+              <p class="project-description">
+                A management application for organizing events and managing them
+                digitally.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">django</span>
+                <span class="tech-tag">Postgresql</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link live">Live Demo</a>
+                <a href="#" class="project-link code">View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- more project cards -->
+        </div>
+      </section>
+      <!--contacts section-->
+      <section id="contact" class="section">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email *</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+          <div class="form-success" style="display: none">
+            <h3>Thank you for your message!</h3>
+            <p>I'll get back to you as soon as possible.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>© 2023 Soumyajoti. All rights reserved.</p>
+          <p>Made with ❤️ and ☕ by Soumyajoti</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/SenSoumyajoti" aria-label="GitHub"
+            ><i class="fab fa-github" aria-hidden="true"></i
+          ></a>
+          <a href="https://linkedin.com/in/soumyajoti3" aria-label="LinkedIn"
+            ><i class="fab fa-linkedin" aria-hidden="true"></i
+          ></a>
+          <a href="https://x.com/sen_soumyajoti" aria-label="Twitter"
+            ><i class="fab fa-twitter" aria-hidden="true"></i
+          ></a>
+          <a href="iamsen93rnj@gmail.com" aria-label="Email"
+            ><i class="fas fa-envelope" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
