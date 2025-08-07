@@ -250,6 +250,7 @@ nav ul li a:hover::after {
 .about-content {
     display: flex;
     align-items: center;
+    padding: 2rem 2rem ;
     gap: 3rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -257,7 +258,7 @@ nav ul li a:hover::after {
 
 .about-text {
     flex: 2;
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
 }
 
 .about-text p {
