@@ -86,7 +86,7 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.resume-btn {
+/* .resume-btn {
     background-color: #ffa109;
     color: white;
     padding: 0.5rem 1.5rem;
@@ -103,7 +103,7 @@ nav ul li a:hover::after {
     background-color: #dfaf00;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
-}
+} */
 
 .hamburger {
     display: none;
@@ -257,6 +257,7 @@ nav ul li a:hover::after {
 
 .about-text {
     flex: 2;
+    padding: 2rem 2rem;
 }
 
 .about-text p {
