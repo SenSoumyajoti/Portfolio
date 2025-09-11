@@ -36,4 +36,4 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 });
    
 document.querySelector('.footer-text p:first-child').innerHTML = 
-  `© ${new Date().getFullYear()} Soumyajoti. All rights reserved.`;
+  `© 2021-${new Date().getFullYear()} Soumyajoti. All rights reserved.`;
